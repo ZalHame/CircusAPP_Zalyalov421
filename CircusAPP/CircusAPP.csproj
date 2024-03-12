@@ -207,7 +207,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
-    <Content Include="circus.sql" />
+    <Content Include="circusScript.sql" />
     <Resource Include="Данные для авторизации.txt" />
     <Resource Include="Images\clownCowboy.jpg" />
     <Resource Include="Images\clownAvatar1.jpeg" />

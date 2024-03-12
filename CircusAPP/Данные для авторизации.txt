@@ -1,6 +1,6 @@
 Администратор:
-adm-adm
-adm1-adm1
+admin-admin
+admin1-admin1
 
 Артист:
 artist-artist
