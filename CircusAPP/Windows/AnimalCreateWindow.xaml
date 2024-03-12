@@ -1,0 +1,30 @@
+﻿<Window x:Class="CircusAPP.Windows.AnimalCreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CircusAPP.Windows"
+        mc:Ignorable="d"
+        Title="Добавление животного" Height="669" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Добавьте новое животное!" HorizontalAlignment="Center" Margin="0,2,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20"/>
+        <TextBox HorizontalAlignment="Center" x:Name="tb_Name" Margin="0,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="25" FontSize="16"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="240,47,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox HorizontalAlignment="Center" x:Name="tb_Age" Margin="0,130,0,0" VerticalAlignment="Top" Width="320" Height="25" FontSize="16" PreviewTextInput="tb_Age_PreviewTextInput"/>
+        <Label Content="Возраст (лет)" HorizontalAlignment="Left" Margin="240,101,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <ComboBox HorizontalAlignment="Center" x:Name="cb_Gender" Margin="0,184,0,0" VerticalAlignment="Top" Width="320" Height="25" FontSize="16"/>
+        <Label Content="Пол" HorizontalAlignment="Left" Margin="240,155,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox HorizontalAlignment="Center" x:Name="tb_Height" Margin="0,238,0,0" VerticalAlignment="Top" Width="320" Height="25" FontSize="16" PreviewTextInput="tb_Height_PreviewTextInput"/>
+        <Label Content="Рост (см)" HorizontalAlignment="Left" Margin="240,209,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" x:Name="tb_RecomFood" Margin="0,292,0,0" VerticalAlignment="Top" Width="320" Height="81" FontSize="16"/>
+        <Label Content="Рекомендации по кормлению (необязательно)" HorizontalAlignment="Left" Margin="240,263,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Добавить животное" x:Name="btn_CreateAnimal" HorizontalAlignment="Center" Margin="0,590,0,0" VerticalAlignment="Top" Height="29" Width="136" FontWeight="Bold" Click="btn_CreateAnimal_Click"/>
+        <Image HorizontalAlignment="Left" Height="120" Margin="54,209,0,0" VerticalAlignment="Top" Width="120" Source="\Images\bonk.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="120" Margin="628,209,0,0" VerticalAlignment="Top" Width="120" Source="/Images/bonk.jpg" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" x:Name="tb_Care" Margin="0,402,0,0" VerticalAlignment="Top" Width="320" Height="81" FontSize="16"/>
+        <Label Content="Уход (необязательно)" HorizontalAlignment="Left" Margin="240,373,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <ComboBox HorizontalAlignment="Left" x:Name="cb_AnimalTrainer" Margin="238,517,0,0" VerticalAlignment="Top" Width="320" Height="25" FontSize="16"/>
+        <Label Content="Дрессировщик" HorizontalAlignment="Left" Margin="238,488,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Назад" x:Name="btn_Back" HorizontalAlignment="Left" Margin="23,16,0,0" VerticalAlignment="Top" FontWeight="Bold" Click="btn_Back_Click"/>
+    </Grid>
+</Window>

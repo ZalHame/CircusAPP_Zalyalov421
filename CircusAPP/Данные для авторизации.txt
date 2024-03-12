@@ -1,0 +1,10 @@
+Администратор:
+adm-adm
+adm1-adm1
+
+Артист:
+artist-artist
+
+Дрессировщик:
+trainer-trainer
+trainer1-trainer1
